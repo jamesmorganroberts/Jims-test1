@@ -1,0 +1,127 @@
+/* 
+ * Example style sheet for question 2 of the Leighton Web Developer Assessement
+ * Graeme Wilkinson 27-JUN-2007
+ */
+
+* {	margin: 0px;padding: 0px;}
+body {padding: 80px 0 0 0;background: url('background_top.gif') #c4b8a1 repeat-x;color: #695d47;font-family: verdana, arial, sans-serif;font-size: small;}
+
+a {	color: #695d47;background-color: inherit;text-decoration: underline;}
+a:hover {color: #ab9c7e;background-color: inherit;}
+img {border: none;}
+
+h1{ font-family:verdana, arial, sans-serif;font-size:150%;text-align:center;margin:2em 0 4em 0;}
+
+h2{ 
+	font-family:verdana, 
+	arial, sans-serif;
+	font-size:110%;
+	text-align:left;
+	/* top right bottom left */
+	margin:1em 0em 1em 0em;
+	background-image:url(ruler.jpg);
+	background-color:#958e7e;
+	background-repeat:repeat-y;
+	/* top right bottom left */
+	padding:3px 0px 3px 70px;
+}
+
+th{
+	
+	font-size:80%;
+	border-style:solid;
+	border-color:#CCC;
+	border-width:0px 0px 2px 0px;
+	margin:0px;
+	/* top right bottom left */
+	padding:3px;
+	text-align:left;	
+	
+}
+
+td{
+	
+	font-size:80%;
+	border-style:solid;
+	border-color:#CCC;
+	border-width:0px 0px 1px 0px;
+	padding:3px;
+}
+
+table{
+	width:100%;
+	/* top right bottom left */
+	margin:1em 0em 1em 0em;
+	border-collapse:collapse;
+	
+}
+
+.galleryImage{
+	
+	border-style:solid;
+	border-color:#ada89b;
+	border-width:0px;
+	width:17.5em;
+	height:17.5em;
+	
+}
+
+.picBox{
+
+	border-style:solid;
+	border-color:#ada89b;
+	border-width:2px;
+	padding:2px;
+	float:left;
+	margin:2px;
+}
+
+.txtBox{
+
+	border-style:solid;
+	border-color:#ada89b;
+	border-width:0px;
+	width:15em;
+	height:5em;
+	padding:1em 1em 1em 1em;
+
+}
+
+#container{
+	text-align:center;	
+}
+
+#pageContent{
+
+	text-align:left;
+	overflow: hidden;		
+	
+}
+
+
+p {
+	margin:0 0 1em 0;
+	line-height:2em;
+}
+div.clear{ clear:both; }
+
+
+
+
+#pageBody {	padding: 5px 0 0 0;width:100%;background-color: #fff;color: inherit;}
+#pageContent { margin:0 auto; width:58em;}
+#pageContent p img {margin:0 1em 0 0;}
+#footer{ background-color:#c4b8a1;text-align:center;padding:1em;margin:2em 0 0 0;}
+
+img.floatLeft { 
+    float: left; 
+    margin-right: 22px;
+	margin-bottom: 5px; 
+}
+
+img.floatRight { 
+    float: right;
+	margin-left: 22px;
+	margin-bottom: 5px;  
+}
+

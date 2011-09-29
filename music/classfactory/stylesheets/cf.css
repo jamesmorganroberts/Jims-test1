@@ -1,0 +1,15 @@
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	background:#efefef;
+}
+
+h1 {
+	font-size:1em;
+}
+
+#header {
+	font-weight:bold;
+	font-size:2em;
+}

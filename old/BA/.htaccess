@@ -1,0 +1,6 @@
+AuthUserFile /homepages/40/d242703152/htdocs/jamesmroberts/BA/.htpasswd
+AuthGroupFile /dev/null
+AuthName PhpMy_Admin
+AuthType Basic
+require user james
+

@@ -1,0 +1,15 @@
+AddType x-mapp-php5 .php  
+
+RewriteEngine on
+
+RewriteRule ^([^\.]+)$ /new/index.php?page=$1 [L]
+
+
+
+
+
+
+
+
+
+

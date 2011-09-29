@@ -1,0 +1,228 @@
+/* 
+ * CSS for question 3
+ * James Roberts
+ */
+
+* {	margin: 0px;padding: 0px;}
+
+body {
+	
+	background-color:#435c94;
+	
+
+	}
+	
+p {
+	font-size:10px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+	
+#headerContainer {
+	
+	background-color:#FFF;
+	width:100%;
+
+	
+}
+
+#header {
+	margin: 0 auto;
+	background-color:#fff;
+	width:728px;
+	height:60px;
+	padding-top:10px;	
+}
+
+#baLogo {
+
+	background-image: url(ba-logo.gif);
+	background-repeat:no-repeat;
+	background-color:#FFF;
+	background-position: 20px 10px;
+	width:207px;
+	height:49px;
+	float:left;
+	border-right:1px solid #CCC;
+	margin-right:20px;
+	
+}
+
+#baLogo h1 {
+display: none;
+}
+
+#londonLogo {
+
+	background-image: url(totally-london.gif);
+	background-repeat:no-repeat;
+	background-color:#FFF;
+	background-position: 0px 6px;
+	width:70px;
+	height:60px;
+	float:left;	
+}
+
+#londonLogo h1 {
+display: none;
+}
+
+#weatherLogo {
+
+	background-image: url(cloud.gif);
+	background-repeat:no-repeat;
+	background-color:#FFF;
+	width:40px;
+	height:30px;
+	float:right;	
+}
+
+#weatherReport{
+
+	width:120px;
+	height:30px;
+	float:right;
+	font-size:10px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#767676;
+}
+
+#weatherReport h2{
+	font-size:10px;
+	font-weight:bold;
+
+}
+
+	
+#main{
+
+	width:728px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top:10px;
+	background-color:#5c77a4;
+	
+}
+
+
+#main h2 {
+	
+	font-size:17px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#2a395b;
+	margin-bottom:10px;
+}
+
+.softBox{
+
+	width:708px;
+	margin:0px;
+	background-color:#5c77a4;
+	padding:0px 10px 10px 10px;
+	float:left;
+}
+
+.softTop{
+	background-image: url(top.gif);
+	background-repeat:no-repeat;
+	background-color:#6CF;
+	width:708px;
+	height:15px;
+	font-size:0px;
+	display: block;
+}
+
+.softBottom{
+
+	background-image: url(bottom.gif);
+	background-repeat:no-repeat;
+	width:708px;
+	height:15px;	
+	display: block;
+	padding:0px;
+	font-size:0px;
+	float:left;
+}
+
+.softContent{
+	background-color:#fff;
+	padding:0px 10px 0px 10px;
+	width:688px;
+	float:left;
+	
+}
+
+.softContent_centre{
+	background-color:#fff;
+	padding:0px 10px 0px 10px;
+	width:688px;
+	float:left;
+	text-align:center;
+	
+}
+
+#bars{
+	background-color:#5c77a4;
+	padding:0px 10px 0px 10px;
+	float:left;
+	width:708px;
+}
+
+.barBox{
+	width:229px;
+	float:left;
+	margin-right:7px;
+	margin-bottom:10px;
+	background-color:#FFF;		
+}
+
+.barText{
+
+	padding:10px 0px 0px 10px;
+	width:209px;
+	height:115px;
+	
+}
+
+.barBottom{
+
+	background-image: url(bottom-229.gif);
+	background-repeat:no-repeat;
+	width:229px;
+	height:30px;	
+	display: block;
+	padding:0px;
+	font-size:0px;
+}
+
+.barList{
+	padding-left:10px;	
+}
+
+ul {
+	padding:0px 0px 0px 0px;
+	margin:0;
+	list-style-type:none;
+	}
+li {
+	
+	line-height:20px;
+	padding:0px 20px 0 15px;
+	text-align:left;
+	background-image: url(chevron.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 7px;
+	font-size:10px;
+	font-family:Verdana, Geneva, sans-serif;
+
+	}
+	
+.listBox{
+	float:left;
+	width:160px;
+}
+
+a {text-decoration:none;font-weight:normal;color:#2a395b;}
+a:link { color:#2a395b; }
+a:visited {color:#2a395b;}
+a:hover {color:#2a395b; }

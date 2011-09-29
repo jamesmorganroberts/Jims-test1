@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="question6.xsl"?>
+
+<favourites>
+	<bars>
+		<bar>
+			<name>The Play Room</name>
+			<image>play.jpg</image>
+			<info>This Piccadilly watering hole features showgirls, comedy, cabaret and drag queens who perform in your midst while you relax with tasty cocktails or even a meal if you fancy.</info>
+			<reviewlink>http://</reviewlink>
+			<websitelink>http://www.theplay-room.com</websitelink>
+		</bar>
+		<bar>
+			<name>Jewel Bar London</name>
+			<image>jewel.jpg</image>
+			<info>Soak up the sumptuous decor in this spacious Parisian themed bar in Soho. Expect to be dazzled by the ornate crystal chandeliers, velvet cushions and thousands of jewels!</info>
+			<reviewlink>http://</reviewlink>
+			<websitelink>http://www.jewelbarlondon.co.uk</websitelink>
+		</bar>
+		<bar>
+			<name>Loungelover</name>
+			<image>loungelover.jpg</image>
+			<info>This bar is seriously cool. The beautiful lounge is adorned with unique pieces of antique furniture and colourful details that will have you marvelling all the way to the cocktail list, which is also superb.</info>
+			<reviewlink>http://</reviewlink>
+			<websitelink>http://www.loungelover.co.uk</websitelink>
+		</bar>
+		<bar>
+			<name>Gordon´s Wine Bar</name>
+			<image>gordons.jpg</image>
+			<info>This unique little cellar bar is just oozing character. Sample some well-chosen ports, wines and cheeses at one of the low-ceilinged, candlelit tables and enjoy the atmosphere.</info>
+			<reviewlink>http://</reviewlink>
+			<websitelink>http://www.gordonswinebar.co.uk</websitelink>
+		</bar>
+		<bar>
+			<name>Absolut Ice Bar</name>
+			<image>absolut.jpg</image>
+			<info>Book your slot, don your poncho and settle down for a nice-cold, ice-cold vodka cocktail at the Ice Bar. Everything in this bar is made entirely out of imported Swedish ice.</info>
+			<reviewlink>http://</reviewlink>
+			<websitelink>http://www.belowlondonzero.co.uk</websitelink>
+		</bar>
+		<bar>
+			<name>Lucky Voice</name>
+			<image>lucky.jpg</image>
+			<info>Choose from over 5,000 classic songs, and sing in your own plush, private booth with your favourite (and most out of tune to make you sound better) friends at Lucky Voice.</info>
+			<reviewlink>http://</reviewlink>
+			<websitelink>http://www.luckyvoice.co.uk</websitelink>
+		</bar>
+		
+		<otherbars>
+			<bar><name>Le Pigalle Club</name><websitelink>http://www.lapigalleclub.co.uk</websitelink></bar>
+			<bar><name>Sketch</name><websitelink>http://www.sketch.com</websitelink></bar>
+			<bar><name>On Anon</name><websitelink>http://</websitelink></bar>
+			<bar><name>The Bacchus</name><websitelink>http://</websitelink></bar>
+			<bar><name>Lucky Voice</name><websitelink>http://</websitelink></bar>
+			<bar><name>Trailer Happiness</name><websitelink>http://</websitelink></bar>
+			<bar><name>Ruby Blue</name><websitelink>http://</websitelink></bar>
+			<bar><name>Fuel</name><websitelink>http://</websitelink></bar>
+			<bar><name>The Play Room</name><websitelink>http://</websitelink></bar>
+			<bar><name>Volupte Lounge</name><websitelink>http://</websitelink></bar>
+			<bar><name>Agenda</name><websitelink>http://</websitelink></bar>
+			<bar><name>Industry</name><websitelink>http://</websitelink></bar>
+			<bar><name>Shochu Lounge</name><websitelink>http://</websitelink></bar>
+			<bar><name>The Loop</name><websitelink>http://</websitelink></bar>
+			<bar><name>Boardwalk Soho</name><websitelink>http://</websitelink></bar>
+			<bar><name>The Avenue</name><websitelink>http://</websitelink></bar>
+
+
+			
+		</otherbars>
+	</bars>
+</favourites>

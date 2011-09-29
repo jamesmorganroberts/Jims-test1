@@ -1,0 +1,398 @@
+/* CSS Document */
+/* James Roberts */
+
+p {
+line-height : 23px;
+margin-bottom:22px;
+margin-top:0;
+}
+
+h1 {
+	padding: 0;
+	font-weight:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	vertical-align: bottom;
+	color: #4f78ba;
+	text-align: left;
+	width: 100%;
+	margin-top: 0; 
+	margin-bottom: 22px; 
+}
+
+img.floatLeft { 
+    float: left; 
+    margin-right: 22px; 
+}
+
+img.floatRight { 
+    float: right;
+	margin-left: 22px; 
+}
+
+a:link {
+text-decoration: none;
+font-weight: normal;
+}
+
+a img {
+border: none;
+}
+
+hr {
+
+    border-bottom:1px dashed #777;
+    border-top:0px;
+    width: 100%;    
+    background-color: #ffffff;
+    height: 1px ;
+	
+}
+
+
+
+/* content tables */
+td.sectiontableheader {
+  background: #eeeeee;
+  color: #222;
+  font-weight: bold;
+  padding: 4px;
+  border-right: 1px solid #fff;
+}
+
+tr.sectiontableentry0 td,
+tr.sectiontableentry1 td,
+tr.sectiontableentry2 td {
+  padding: 4px;
+}
+
+td.sectiontableentry0,
+td.sectiontableentry1,
+td.sectiontableentry2 {
+  padding: 3px;
+}
+
+td.modifydate {
+
+font-size:9px;
+color:#a6b4cc;
+}
+
+td.createdate {
+color:#a6b4cc;
+}
+
+td.writtenby {
+color:#a6b4cc;
+}
+
+td.contentdescription {
+color:#a6b4cc;
+}
+
+
+
+#cat_desc {
+color:#a6b4cc;
+font-size:9px;
+}
+
+table.contentpaneopen fieldset {
+	border: 0;
+	border-top: 1px solid #ddd;
+}
+
+body
+{
+text-align: center;
+font-family: Helvetica,Arial,sans-serif;
+line-height: 1.3em;
+margin: 0px 0px 0px 0px;
+font-size: 12px;
+
+}
+
+div#banner {
+float:left;
+width: 861px;
+height: 104px;
+background: url(../images/banner2.jpg) top left no-repeat;
+
+
+
+}
+
+div#bottom_banner_container {
+
+float:left;
+width: 1087px;
+height: 90px;
+}
+
+div#bottom_banner_spacer {
+float:left;
+width: 113px;
+height:20px;
+
+
+}
+
+div#bottom_banner {
+float:left;
+width: 859px;
+height:90px;
+background-color:#FFFF00;
+background: url(../images/bottom.jpg) top left repeat-x;
+
+}
+
+
+
+
+
+.clr {
+	clear: both;
+	
+}
+
+
+
+div#container
+{
+margin-left: auto;
+margin-right: auto;
+width: 1087px;
+text-align: left;
+background-color: #ffffff;
+padding:0px;
+}
+
+div#maincontainer
+{
+width: 1087px;
+
+background: #fff url(../images/tile.gif) top left repeat-y;
+}
+
+#page_bg {
+	padding: 0;
+	background-color: #dbe5f5;
+	margin:0;
+}
+
+
+div#left_shade {
+float:left;
+width: 112px;
+height:104px;
+border: 0px solid black;
+margin-top:0px;
+background:url(../images/shading_left.jpg) top left repeat-y;
+}
+
+div#left_shade2 {
+float:left;
+width: 112px;
+height:104px;
+border: 0px solid black;
+margin-top:0px;
+background:url(../images/shading_left.jpg) top left repeat-y;
+}
+
+
+div#right_shade {
+float:left;
+width: 112px;
+height:104px;
+border: 0px solid black;
+margin-top:0px;
+background:url(../images/shading_right.jpg) top left repeat-y;
+}
+
+
+div#mainpic {
+float:left;
+width: 621px;
+height:20px;
+border: 0px solid black;
+margin-top:20px;
+
+background-color:#66CC66;
+background: url(../images/cubes.gif) top left repeat-x;
+font-family: Helvetica,Arial,sans-serif;
+font-weight:normal;
+}
+
+div#maincolumn {
+float:left;
+width: 650px;
+border: 0px solid black;
+padding: 30px;
+margin-top:0px;
+background:#dbe5f5; 
+background:#fff url(../images/main_bg3.jpg) top left no-repeat;
+
+
+font-family: Helvetica,Arial,sans-serif;
+font-weight:normal;
+}
+
+div#maincolumn_full {
+padding:10px 0;
+width: 500px;
+float:left;
+}
+
+
+
+/* --- Module Menu --- */ 
+
+#leftcolumn {
+
+	margin: 0;
+	width: 150px;
+	padding:0px;
+	float:left;
+
+	
+	
+}
+
+#rightcolumn {
+
+	margin: 0;
+	width: 170px;
+	padding:0px;
+	float:left;
+
+}
+
+
+/* --- Module Menu --- */ 
+
+#leftcolumn2 .moduletable_menu, #leftcolumn .moduletable, #leftcolumn .moduletable_text, #leftcolumn .c {
+	margin:0 0 0px 0;
+	padding: 0px;
+	border:1px solid #66667e;
+	border-right:1px solid #d2d2d2;
+	
+}
+
+
+/* ---------- front page heading etc------------ */
+
+h3, .componentheading, table.moduletable th, legend {
+
+  margin: 0;
+  
+  font-family: Tahoma,Helvetica,Arial,sans-serif;
+  color:#72963c;
+  font-size: 1.4em;
+  padding-left: 0px;
+  margin-bottom: 10px;
+  text-align: left;
+
+}
+
+h2, .contentheading {
+	padding: 0;
+	font-family: Tahoma, Helvetica,sans-serif;
+	font-size: 12px;
+	
+	vertical-align: bottom;
+	color: #4f78ba;
+	text-align: left;
+	width: 100%;
+}
+
+}
+
+
+
+
+
+
+
+
+a:link, a:visited {
+	color: #73a12e; 
+	text-decoration:underline;
+}
+
+a:hover {
+	color: #000000;	
+	text-decoration: underline;
+	
+}
+
+
+
+
+/* -----------------------------------------------------------------------------------------------MENU ITEMS TEXT --- */
+
+#leftcolumn ul.menu li a, #leftcolumn ul.menu li a:link,
+#rightcolumn ul.menu li a, #rightcolumn ul.menu li a:link {
+	display:block;
+	line-height:24px;
+	background: #fff url(../images/menu_tile.jpg) top left repeat-y;
+	padding:2px 20px;
+	border-bottom:1px solid #d2d2d2;
+    font-weight: regular;
+	text-decoration:none;
+	color:#666666;
+}
+
+/* --- Module Menu --- List, outline */ 
+
+#leftcolumn ul.menu, #rightcolumn ul.menu {
+	margin:0;
+	padding:0;
+	list-style:none;
+	border:0px solid #d2d2d2;
+	border-top:none;
+}
+
+/* --- Module Menu --- List, item ?? unknown */ 
+
+#leftcolumn ul.menu li, #rightcolumn ul.menu li {
+	margin:0;
+	padding:0;
+	background: #ffffff;
+}
+
+#leftcolumn .moduletable, .moduletable_menu
+{
+	margin:0 0 0px 0;
+	padding: 0px;
+	border:1px solid #8995a7;
+	
+}
+
+/* -----------------------------------------------------------------------------------------------LIST ITEM ROLLOVER --- */
+
+#leftcolumn ul.menu li a:hover, #rightcolumn ul.menu li a:hover {
+	background:#4f78ba url(../images/menu_link_bg.gif) left no-repeat;
+	color:#ffffff;
+}
+
+/* -----------------------------------------------------------------------------------------------SELECTED LIST ITEM--- */
+
+/* ****** left col current menu ****** */
+#leftcolumn ul.menu li#current a, #leftcolumn ul.menu li#current a:link, 
+#rightcolumn ul.menu li#current a, #rightcolumn ul.menu li#current a:link {
+	display:block;
+	line-height:24px;
+	background:#b8d888 url(../images/menu_curren_link_bg.gif) left no-repeat;
+	padding:2px 20px;
+	border-bottom:1px solid #d2d2d2;
+	text-decoration:none;
+	color:#434343;
+}
+
+
+
+
+
+
+
+

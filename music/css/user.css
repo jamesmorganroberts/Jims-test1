@@ -1,0 +1,362 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {	margin: 0px;padding: 0px;}
+
+
+.image_group{
+background-color:#F8F8F8;
+overflow:hidden;
+
+}
+
+
+h2{
+padding-bottom:10px;
+}
+
+
+#product_container{
+
+background-color:#fffdf2;
+width:900px;
+padding:10px;
+/* top right bottom left */
+border-width: 1px 1px 0px 1px;
+border-style: solid solid solid solid;
+border-color:#c6a794;
+
+}
+
+
+
+.image_container{
+
+background-color:#fffdf2;
+width:130px;
+height:130px;
+padding:10px;
+/* top right bottom left */
+margin:10px 10px 0px 0px;
+border-width: 1px 1px 1px 1px;
+border-style: solid solid solid solid;
+border-color:#c6a794;
+overflow:hidden;
+float:left;
+
+}
+
+
+th{
+padding:0px;
+margin:0px;
+border:0px;
+color:#b39c8a;
+text-align:left;
+}
+
+
+ul{
+padding-bottom:20px;
+padding-top:20px;
+}
+
+li
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+}
+
+
+body{
+
+	width:1000px;
+	margin: 0 auto;
+	padding-top:0px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	
+}
+
+#banner_container{
+
+	width:1000px;
+	background: url(../images/banner.jpg) no-repeat left top;
+	background-color:#FFF;
+	height:150px;
+
+}
+
+
+
+#ajax_container{
+margin-bottom:20px;
+overflow:hidden;
+
+}
+
+
+#banner_container h1 {
+display: none;
+}
+
+#footer_container{
+
+	width:1000px;
+	background-color:#FFF;
+	height:100px;
+
+}
+
+#form_container{
+
+
+
+}
+
+
+#main_container{
+
+	width:1000px;
+	background-color:#F4F4F4;
+	overflow:hidden;
+
+
+}
+
+#left_container{
+
+	width:170px;
+	background-color:#FFFF00;
+	overflow: hidden;
+	height:400px;
+	float:left;
+}
+
+#page_container{
+
+	width:660px;
+	background-color:#00FF00;
+	overflow: hidden;
+	height:400px;
+	float:left;
+}
+
+#right_container{
+
+	width:170px;
+	background-color:#C0C0C0;
+	overflow: hidden;
+	height:400px;
+	float:left;			
+
+}
+
+
+#text_box{
+
+	width:100px;
+	background-color:#FFFF00;
+	overflow: hidden;
+	height:400px;
+	float:left;
+
+}
+
+#text_box2{
+
+	width:100px;
+	background-color:#FF00FF;
+	overflow: hidden;
+	height:400px;
+	float:left;
+
+}
+
+
+
+#box{
+	background-color:#CCC;
+	border:1px solid #666;
+	padding:20px;
+	
+}
+
+.input-text{
+border:1px solid #666;
+color:#666666;
+padding:0px;
+margin:0px;
+display:block;
+overflow:hidden;
+}
+
+label{
+display:block;
+margin-bottom:10px;
+color:#555555;
+overflow:hidden;
+width:700px;
+}
+
+.field{
+display:block;
+float:left;
+padding-right:6px;
+width:90px;
+text-align:left;
+font-weight:normal;
+overflow:hidden;
+}
+
+.input{
+display:block;
+float:left;
+padding-right:6px;
+width:200px;
+text-align:left;
+font-weight:normal;
+overflow:hidden;
+
+}
+
+.error{
+display:block;
+float:left;
+text-align:left;
+font-weight:normal;
+overflow:hidden;
+color:#F00;
+}
+
+
+
+
+#login_container{
+
+  width:1000px;
+  background-color:#FFF;
+
+}
+
+/* ----------- My Form ----------- */
+.myform{
+margin:0 auto;
+width:400px;
+padding:14px;
+}
+
+h1 {
+font-size:14px;
+font-weight:bold;
+margin-bottom:8px;
+}
+
+
+/* ----------- stylized ----------- */
+#stylized{
+border:solid 2px #b7ddf2;
+background:#ebf4fb;
+overflow: hidden;
+}
+#stylized h1 {
+font-size:14px;
+font-weight:bold;
+margin-bottom:8px;
+}
+#stylized p{
+font-size:11px;
+color:#666666;
+margin-bottom:20px;
+border-bottom:solid 1px #b7ddf2;
+padding-bottom:10px;
+}
+#stylized .input_heading{
+display:block;
+font-weight:bold;
+text-align:right;
+width:140px;
+float:left;
+}
+#stylized .error_box{
+display:block;
+font-weight:normal;
+text-align:left;
+width:370px;
+float:left;
+font-size:11px;
+/* top right bottom left */
+padding:10px;
+margin:0px 0px 20px 0px;
+border:solid 2px #F00;
+background:#ffc3c3;
+display:false;
+}
+#stylized .forgotten_link{
+display:block;
+font-weight:normal;
+text-align:left;
+width:340px;
+float:left;
+font-size:11px;
+margin:0px 0px 20px 100px;
+}
+
+#stylized .forgotten_link2{
+display:block;
+font-weight:normal;
+text-align:left;
+width:340px;
+float:left;
+font-size:11px;
+margin:0px 0px 20px 0px;
+
+}
+
+#stylized .small{
+color:#666666;
+display:block;
+font-size:11px;
+font-weight:normal;
+text-align:right;
+width:140px;
+}
+#stylized input{
+float:left;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:200px;
+margin:2px 0 20px 10px;
+}
+#stylized button{
+clear:both;
+margin-left:150px;
+width:125px;
+height:31px;
+background:#666666 url(img/button.png) no-repeat;
+text-align:center;
+line-height:31px;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;
+}
+
+
+.errorfield {
+	border:2px solid #ff0000;
+}
+
+.error_box {
+	display:block;
+	font-weight:normal;
+	text-align:left;
+	font-size:11px;
+	padding:10px;
+	margin:0px 0px 20px 0px;
+	border:solid 2px #F00;
+	background:#ffc3c3;
+}
+
+

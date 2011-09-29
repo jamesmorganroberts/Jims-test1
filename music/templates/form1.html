@@ -1,0 +1,71 @@
+
+
+<div id="box">
+
+<form action="{ROOT}{PAGE}" method="post" enctype="multipart/form-data">
+
+<label>
+<span class="field">Forename</span>
+<span class="input"><input type="text" value="{value_forename}" class="input-text" name="forename" id="email"/></span>
+<span class="error">{valid_forename}</span>
+</label>
+
+<label>
+<span class="field">Surname</span>
+<span class="input"><input type="text" value="{value_surname}" class="input-text" name="surname" id="email"/></span>
+<span class="error">{valid_surname}</span>
+</label>
+
+<label>
+<span class="field">Email</span>
+<span class="input"><input type="text" value="{value_email}" class="input-text" name="email" id="email"/></span>
+<span class="error">{valid_email}</span>
+</label>
+
+<label>
+<span class="field">Telephone</span>
+<span class="input"><input type="text" value="{value_telephone}" class="input-text" name="telephone" id="email"/></span>
+<span class="error">{valid_telephone}</span>
+</label>
+
+<label>
+<span class="field"><b>Subject</b></span>
+<span class="input"><input type="text" value="{value_subject}" class="input-text" name="subject" id="email"/></span>
+<span class="error">{valid_subject}</span>
+</label>
+
+<label>
+<span class="field">Message</span>
+<span class="input"><textarea name="message" cols="20" rows="4" class="input-text">{value_message}</textarea></span>
+<span class="error">{valid_message}</span>
+</label>
+
+<label>
+<span class="field">Favourite Colour(s)</span> 
+<span class="input">
+<select name="colours[]" multiple="multiple" class="input-text" >
+<option value="0" {colour_0}>Red </option>
+<option value="1" {colour_1}>Blue </option>
+<option value="2" {colour_2}>Black </option>
+<option value="3" {colour_3}>Green </option>
+</select>
+</span>
+<span class="error">{valid_colour}</span>
+</label>
+
+<label>
+<span class="field">&nbsp;</span>
+<span class="input">
+
+<!--[if IE 6]>
+&nbsp;<br/>
+<![endif]-->
+
+<input name="button" id="submit_button" value="" title="submit form" type="submit"></span>
+</label>
+
+</form>
+
+
+ 
+</div>

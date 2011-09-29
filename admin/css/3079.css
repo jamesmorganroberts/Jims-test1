@@ -1,0 +1,269 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {	margin: 0px;padding: 0px;}
+
+h2{
+font-family:Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-size:17px;
+	padding-bottom:20px;
+
+}
+
+
+.form_label {
+font-family:Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-size:13px;
+	display:block;
+	width:90px;
+	padding-top:10px;
+}
+
+.form_input {
+	margin:3px 0px 0px 0px;
+  height:17px;
+  color: #333333;
+  font-size:12px;
+  width:330px;
+  padding: 3px;
+  margin-left: 10px;
+}
+
+
+
+
+#main_container{
+
+	
+	margin:auto;
+	text-align:left;
+	overflow:hidden;
+	
+
+
+}
+
+#module_container{
+width:100%;
+margin:auto;
+}
+
+#boxes{
+overflow:hidden;
+width:800px;
+margin:auto;
+
+
+}
+
+
+#box_container{
+width:507px;
+margin-top:20px;
+margin-right:20px;
+float:left;
+}
+
+#box2_container{
+width:267px;
+margin-top:20px;
+float:left;
+}
+
+#reports_container{
+background-color:#e6e6e6;
+width:247px;
+overflow:hidden;
+padding-left:20px;
+}
+
+
+
+#form_container{
+background-color:#e6e6e6;
+width:487px;
+overflow:hidden;
+
+padding-left:20px;
+}
+
+li{
+padding-bottom:2px;
+}
+
+ul
+{
+list-style-type: none;
+}
+
+#banner{
+	width:800px;
+	height:90px;
+	background: url(../images/seotrackz_banner.png) no-repeat left top;
+	margin:auto;
+}
+
+#banner_container{
+width:100%;
+background-color:#a7d7de;
+}
+
+
+#bottom{
+	width:579px;
+	height:21px;
+	background: url(../images/nettrackz_bottom.png) no-repeat left top;
+}
+
+
+
+.round_header{
+	width:509px;
+	height:21px;
+	background: url(../images/seo_round_header.png) no-repeat left top;
+	overflow:hidden;
+	background-color:#FFFFFF;
+}
+
+.round_footer{
+	width:509px;
+	height:21px;
+	background: url(../images/seo_round_footer.png) no-repeat left top;
+}
+
+.round_header_small{
+	width:267px;
+	height:21px;
+	background: url(../images/seo_round_header_small.png) no-repeat left top;
+	overflow:hidden;
+	background-color:#FFFFFF;
+}
+
+.round_footer_small{
+	width:267px;
+	height:21px;
+	background: url(../images/seo_round_footer_small.png) no-repeat left top;
+}
+
+
+
+
+.box{
+
+background-color:#FFF;
+width:557px;
+border-left:1px solid #a7cee5;
+border-right:1px solid #a7cee5;
+font-weight:normal;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#00b2d9;
+padding-left:20px;
+}
+
+h1{
+padding:0px;
+margin:0px;
+
+}
+
+
+
+/* ----------- stylized ----------- */
+.input_heading{
+display:block;
+font-weight:normal;
+text-align:right;
+width:140px;
+float:left;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#00b2d9;
+}
+
+
+.input{
+float:left;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:305px;
+margin:2px 0 20px 10px;
+color:#666666;
+}
+
+
+.button{
+float:left;
+margin-left:200px;
+}
+
+
+
+.submit_button {
+background: transparent url(../images/nettrackz_submit.png) no-repeat center top;
+}
+
+.submit_button {
+	
+  width: 150px;
+  height: 38px;
+  margin-left:102px;
+  padding: 0;
+  border: 0;
+  font-size:12px;
+  color:#000;
+  background: transparent url(../images/seo_button.png) no-repeat center top;
+  text-indent: -1000em;
+}
+
+
+
+.error_box{
+display:block;
+font-weight:normal;
+text-align:left;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+width:370px;
+/* top right bottom left */
+padding:10px;
+border:solid 2px #F00;
+background:#ffc3c3;
+display:false;
+
+margin-bottom:20px;
+color:#FF0000;
+}
+
+ .msg_box{
+display:block;
+font-weight:normal;
+text-align:left;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+width:370px;
+/* top right bottom left */
+color:#FFFFFF;
+padding:10px;
+border:solid 2px #006633;
+background:#66CC66;
+display:false;
+
+margin-bottom:20px;
+}
+
+
+.reports{
+font-family:Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-size:13px;
+
+}
+
+
+
+
+

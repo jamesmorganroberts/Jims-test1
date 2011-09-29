@@ -1,0 +1,170 @@
+/* 
+ * Example style sheet for question 1 of the Leighton Web Developer Assessement
+ * Graeme Wilkinson 27-JUN-2007
+ */
+ 
+
+
+html {margin:0;padding:0;font-size:x-small;font-family:Verdana;color:#666666;}
+body {margin:0;padding:0; background-color:#cdcdcd;}
+h1 {margin:0;padding:0;font-size:120%;color:#fff;}
+h2 {margin:0;padding:0;font-size:110%;}
+h3 {margin:0;padding:0;font-size:100%;}
+h4 {margin:0;padding:0;font-size:100%;}
+h5 {margin:0;padding:0;font-size:100%;}
+a {text-decoration:none;font-weight:bold;color:#666666;}
+a:link { color:#666666; }
+a:visited {color:#666666;}
+a:hover {color:#666666; }
+a:active {color:#666666;}
+a:focus{color:#666666; }
+.hidden { display:none; }
+ul.menu {}
+div.clear { display:none;}
+
+
+div#pageBody {
+	
+	width:788px;
+	margin: 0 auto;
+	background-color:#fff;
+	padding:0px;
+	overflow: hidden;
+
+	}
+
+div#header {
+	background-image:url(header.jpg);
+	background-color:#2b529d;
+	background-repeat:no-repeat;
+	background-position:top right;
+	margin:0px 0px 0px 0px;
+	/* top right bottom left */
+	padding:10px 0px 0px 10px;
+	height:232px;
+	}
+	
+div#header p { color:#fff; }
+
+
+
+div#pageOptions {
+	/* top right bottom left */
+	padding:20px 0px 0px 10px;
+	width:170px;
+	float:left;
+	margin:0;
+	background-color:#fff;
+	}
+div#pageOptions h1 {
+		
+	}
+div#pageOptions ul {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	background-image: url(170tops.gif);
+	background-position: -340px -10px;
+	}
+div#pageOptions li {
+	line-height:30px;
+	padding:0px 20px 0 25px;
+	text-align:left;
+	background-image: url(greycross.gif);
+	background-repeat: no-repeat;
+	background-position: 10px 12px;
+	}
+div#pageOptions li.selected {border-right:5px solid #B7D577;background-color:#69940C;color:#fff;}
+div#pageOptions li.selected a {color:#fff;}
+
+div#pageOptions h2{
+display: block;
+width: 160px;
+height: 20px;
+background-image: url(170tops.gif);
+background-repeat: no-repeat;
+background-position: -680px -0px;
+padding:10px 0px 0px 10px;
+}
+
+
+
+
+.bottomCurve{
+display: block;
+width: 170px;
+height: 40px;
+background-image: url(170bttms.gif);
+background-repeat: no-repeat;
+background-position: -170px -460px;
+}
+	
+
+
+div#pageContent {width:569px;float:left;margin:0;padding:10px 10px 50px;background-color:#fff;}
+
+div#footer {
+	float:left;
+	width:788px;
+	text-align:center;
+	border-top:1px solid #CCC;
+	padding:10px 0px 10px 0px;
+	
+	}
+
+div#footer ul {list-style-type:none;}
+div#footer li {
+	line-height:15px;
+	display: inline;
+	list-style-type: none;
+	}
+
+div#footer li a {font-weight:normal;text-decoration:underline;color:#aaa;padding:10px;}
+div#footer li a:hover {font-weight:normal;text-decoration:underline;color:#666;}
+
+
+.button {
+background-image: url(bttnRScndry.gif);
+background-repeat:no-repeat;
+background-position: top right;
+padding:4px 6px 3px 0px;
+}
+
+.button a {
+	color:#FFF;	
+}
+
+.buttonL {
+background-image: url(bttnLScndry.gif);
+background-repeat:no-repeat;
+background-color:#fff;
+padding:4px 2px 3px 0px;
+}
+
+
+
+
+
+
+a.ovalbutton{
+background: transparent url('oval-gray-left.gif') no-repeat top left;
+display: block;
+float: left;
+font: normal 13px Tahoma; /* Change 13px as desired */
+line-height: 16px; /* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 24px) */
+height: 24px; /* Height of button background height */
+padding-left: 11px; /* Width of left menu image */
+text-decoration: none;
+}
+
+a:link.ovalbutton, a:visited.ovalbutton, a:active.ovalbutton{
+color: #494949; /*button text color*/
+}
+
+a.ovalbutton span{
+background: transparent url('oval-gray-right.gif') no-repeat top right;
+display: block;
+padding: 4px 11px 4px 0; /*Set 11px below to match value of 'padding-left' value above*/
+}
+
+
